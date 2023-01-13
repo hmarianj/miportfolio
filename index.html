@@ -1,0 +1,213 @@
+k<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- link para iconos o img de devicon van en el header y luego la etiqueta en el body -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- link para iconos iconawesome van en el header y luego la etiqueta en el body -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- link para favicon aparece en el title -->
+    <link rel="shortcut icon" href="./img/icontitle.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Inicio de Header y barra de navegacion -->
+    <header>
+        <nav class="nav-header">
+            <ul>
+                <li class="nav-item"><a href="#about">Hola</a></li>
+            </ul>
+            <ul>
+                <li class="nav-item"><a href="#skills">Conocimientos</a></li>
+            </ul>
+            <ul>
+                <li class="nav-item"><a href="#projects">Proyectos</a></li>
+            </ul>
+            <ul>
+                <li><a class="nav-item-selec href="#contact>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin de Header y barra de navegacion -->
+    <main>
+        <!-- Inicio de Seccion sobre mi -->
+        <section class="container-about" id="about">
+            <article class="about-me">
+                <p class="name">¡Hola! Soy</p>
+                <h1 class="about-name">Marian Hernández</h1>
+                <p p class="about-description"> Diseñadora UX/UI y Desarrolladora Frontend, viviendo en Buenos Aires.</p>
+                <a  class="button" href="#projects">LO QUE HAGO</a>
+            </article>
+            <figure>
+                <img  class="about-img" src="./img/dev-woman.png" alt="mujerux">
+            </figure>
+        </section>
+        <!-- Fin de Seccion sobre mi -->
+        <!-- Inicio sesion skills -->
+        <section class="skills-container" id="skills" > <!-- creo una seccion grande "skills" y luego la divido en pequenas secciones para armar las cajitas de iconos -->
+            <section class="skills-title">
+                <h2 class="skills-h2">Mis Conocimientos</h2>
+                <p class="skills-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odio numquam quidem nam dicta sunt at culpa earum dignissimos? Minima.</p>
+            </section>
+            <!-- Inicio sesion card skills -->
+            <section class="skills-containerimg">
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="iconohtml" />
+                    <figcaption class="skills-figcaption">HTML 5</figcaption>
+                </figure>
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="iconocss" />
+                    <figcaption class="skills-figcaption">CSS 3</figcaption>
+                </figure>
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="iconosaas" />
+                    <figcaption class="skills-figcaption">Sass</figcaption>
+                </figure>
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="iconojava" />
+                    <figcaption class="skills-figcaption">JavaScrit</figcaption>
+                </figure>
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="iconoreact"/>
+                    <figcaption class="skills-figcaption">React</figcaption>
+                </figure>
+                <figure class="skills-item">
+                    <img class="img-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="iconogit" />
+                    <figcaption class="skills-figcaption" >Git</figcaption>
+                </figure>
+            </section>
+            <!-- Fin sesion card skills -->
+        </section>
+        <!-- Fin sesion skills -->
+        <!-- Inicio Cita -->
+        <blockquote class="quote-container">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>Los mejores programadores no son sólo marginalmente mejores que los buenos. Se trata de un orden de magnitud mayor, medida por cualquier estándar: creatividad conceptual, velocidad, ingenio o habilidad para solucionar problemas.</p>
+            <h3>Randall E. Stross</h3>
+        </blockquote>
+        <!-- Fin Cita -->
+        <!-- Inicio mis proyectos -->
+        <section class="projects-container" id="projects">
+            <section class="projects-title">
+                <h2 class="projects-h2">Mis proyectos</h2>
+                <p class="projects-p">Aqui podras ver todos los protectos que realice durante mi cursada en Ada.</p>
+            </section>
+            <!-- Inicio sesion card skills -->
+            <section class="projects-container-img">
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank">  <!-- el atributo target black hace que el link me abra el link en otra ventana -->
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/dev-woman.png" alt="portfolio" width="200px" height="auto">
+                            <figcaption>
+                                <p class="figure-p">Portfolio</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank">
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/memes-gne.png" alt="generador de memes" >
+                            <figcaption>
+                                <p class="figure-p">Generador de memes</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank"> 
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/macht.png" alt="match 3">
+                            <figcaption>
+                                <p class="figure-p">Match 3</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank"> 
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/generador-gastos.png" alt="controlador de gastos">
+                            <figcaption>
+                                <p class="figure-p">Controlador de gastos</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank"> 
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/adm-tareas.png" alt="adm de reuniones">
+                            <figcaption>
+                                <p class="figure-p">Administrador de reuniones</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a class="project-link" href="#" target="_blank"> 
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/todoapp.png" alt="todo app">
+                            <figcaption>
+                                <p class="figure-p">Todo app</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                <article class="project-card">
+                    <a href="#" target="_blank">  
+                        <figure class="project-figure">
+                            <img class="project-img" src="./img/movies.png" alt="peliculas" width="200px" height="auto">
+                            <figcaption>
+                                <p class="figure-p">Buscador de películas</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+            </section> 
+            <!-- Fin sesion card skills -->
+        </section>
+        <!-- Fin mis proyectos -->
+        <section id="contact">
+        </section>
+    </main>
+    <!-- Inicio footer -->
+    <footer class="footer-container">
+        <nav class="footer-nav">
+            <ul class="footer-menu">
+                <li class="footer-nav-item"><a class="footer-link" href="#about">HOLA</i></a></li>
+            </ul>
+            <ul>
+                <li class="footer-nav-item"><a class="footer-link" href="#skills">CONOCIMIENTOS</a></li>
+            </ul>
+            <ul>
+                <li class="footer-nav-item"><a class="footer-link" href="#projects">PROYECTOS</a></li>
+            </ul>
+            <ul>
+                <li class="footer-nav-item"><a class="footer-link" href="#contact">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <ul class="footer-social">
+            <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="devicon-github-original"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="devicon-linkedin-plain"></i></a>
+            </li>
+            <li>
+                <a href="mailto:hmarianj25@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul>
+        <p class="text-footer">Hecho con ❤️ por Marian Hernández</p>
+    </footer>
+    <!-- Fin footer -->
+</body>
+</html>
