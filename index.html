@@ -20,16 +20,16 @@ k<!DOCTYPE html>
     <header>
         <nav class="nav-header">
             <ul>
-                <li class="nav-item"><a href="#about">Hola</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Hola</a></li>
             </ul>
             <ul>
-                <li class="nav-item"><a href="#skills">Conocimientos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Conocimientos</a></li>
             </ul>
             <ul>
-                <li class="nav-item"><a href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
             </ul>
             <ul>
-                <li><a class="nav-item-selec href="#contact>Contacto</a></li>
+                <li><a class="nav-item-selec" href="#contact" >Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -104,7 +104,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/dev-woman.png" alt="portfolio" width="200px" height="auto">
                             <figcaption>
-                                <p class="figure-p">Portfolio</p>
+                                Portfolio
                             </figcaption>
                         </figure>
                     </a>
@@ -114,7 +114,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/memes-gne.png" alt="generador de memes" >
                             <figcaption>
-                                <p class="figure-p">Generador de memes</p>
+                                Generador de memes
                             </figcaption>
                         </figure>
                     </a>
@@ -124,7 +124,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/macht.png" alt="match 3">
                             <figcaption>
-                                <p class="figure-p">Match 3</p>
+                                Match 3
                             </figcaption>
                         </figure>
                     </a>
@@ -134,7 +134,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/generador-gastos.png" alt="controlador de gastos">
                             <figcaption>
-                                <p class="figure-p">Controlador de gastos</p>
+                                Controlador de gastos
                             </figcaption>
                         </figure>
                     </a>
@@ -144,7 +144,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/adm-tareas.png" alt="adm de reuniones">
                             <figcaption>
-                                <p class="figure-p">Administrador de reuniones</p>
+                                Administrador de reuniones
                             </figcaption>
                         </figure>
                     </a>
@@ -154,7 +154,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/todoapp.png" alt="todo app">
                             <figcaption>
-                                <p class="figure-p">Todo app</p>
+                                Todo app
                             </figcaption>
                         </figure>
                     </a>
@@ -164,7 +164,7 @@ k<!DOCTYPE html>
                         <figure class="project-figure">
                             <img class="project-img" src="./img/movies.png" alt="peliculas" width="200px" height="auto">
                             <figcaption>
-                                <p class="figure-p">Buscador de películas</p>
+                                Buscador de películas
                             </figcaption>
                         </figure>
                     </a>
@@ -176,10 +176,72 @@ k<!DOCTYPE html>
         <section id="contact">
         </section>
     </main>
+    <!-- Inico contacto -->
+    <section class="contact-container" id="contact">
+        <section  class="contact-section">
+            <section class="contact-info">
+                <h2 class="contact-title">Contactame</h2>
+                <p class="description-contact">Si deseas contactarme por cualquier consulta u oferta de trabajo, acá te dejo mis datos, saludos.</p>
+                <section class="contact-box">
+                    <ul class="ul-contact">
+                        <li class="menu-contact-item">
+                            <a class="menu-contact-link" href="#">
+                                <i class="fa-brands fa-twitter contact-icon"></i>
+                                @hmarianj
+                            </a>
+                        </li>
+                        <li class="menu-contact-item">
+                            <a class="menu-contact-link" href="#">
+                                <i class="fa-brands fa-github-alt contact-icon"></i>
+                                hmarianj
+                            </a>
+                        </li>
+                        <li class="menu-contact-item">
+                            <a class="menu-contact-link" href="#">
+                                <i class="fa-brands fa-linkedin-in contact-icon"></i>
+                                marianhernandez
+                            </a>
+                        </li>
+                        <li class="menu-contact-item">
+                            <a class="menu-contact-link" href="#">
+                                <i class="fa-solid fa-envelope contact-icon"></i>
+                                hmarianj25@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="form-container">
+                <h2 class="contact-title">Escribeme</h2>
+                <form class="contact-form">
+                    <div class="box-namelastname">
+                        <div class="form-box form-name-lastname">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" name="name" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-box form-name-lastname">
+                            <label for="lastname">Apellido *</label>
+                            <input type="text" id="" name="lastname" placeholder="Apellido" required>
+                        </div>
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="p. ej.: correo@gmail.com" required>
+                    </div>
+                    <div class="form-box form-textarea">
+                        <label for="message">Mensaje *</label>
+                        <textarea id="message" name="message" cols="30" rows="10" required placeholder="Escribe un mensaje aquí"></textarea>
+                    </div>
+                    <button class="contact-btn">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </section>
+    <!-- Fin contacto -->
     <!-- Inicio footer -->
     <footer class="footer-container">
         <nav class="footer-nav">
-            <ul class="footer-menu">
+            <ul class="footer-nav">
                 <li class="footer-nav-item"><a class="footer-link" href="#about">HOLA</i></a></li>
             </ul>
             <ul>
@@ -192,20 +254,30 @@ k<!DOCTYPE html>
                 <li class="footer-nav-item"><a class="footer-link" href="#contact">CONTACTO</a></li>
             </ul>
         </nav>
-        <ul class="footer-social">
-            <li>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="devicon-github-original"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="devicon-linkedin-plain"></i></a>
-            </li>
-            <li>
-                <a href="mailto:hmarianj25@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-        </ul>
+        <section class="social-media">
+            <ul class="social-menu">
+                <li class="social-li">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-twitter social-icon"></i>
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-github-alt social-icon"></i>
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-linkedin-in social-icon"></i>
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-link">
+                        <i class="fa-solid fa-envelope social-icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
         <p class="text-footer">Hecho con ❤️ por Marian Hernández</p>
     </footer>
     <!-- Fin footer -->
