@@ -1,11 +1,13 @@
-k<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"  content="HTML, CSS, JS, GIT,">
     <title>Mi portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Mi portafolio de HTML y CCS primer modulo de la carrera front end.">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
     <!-- link para iconos o img de devicon van en el header y luego la etiqueta en el body -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -43,17 +45,15 @@ k<!DOCTYPE html>
                 <p p class="about-description"> Diseñadora UX/UI y Desarrolladora Frontend, viviendo en Buenos Aires.</p>
                 <a  class="button" href="#projects">LO QUE HAGO</a>
             </article>
-            <figure>
+            <figure class="figure-content">
                 <img  class="about-img" src="./img/dev-woman.png" alt="mujerux">
             </figure>
         </section>
         <!-- Fin de Seccion sobre mi -->
         <!-- Inicio sesion skills -->
         <section class="skills-container" id="skills" > <!-- creo una seccion grande "skills" y luego la divido en pequenas secciones para armar las cajitas de iconos -->
-            <section class="skills-title">
-                <h2 class="skills-h2">Mis Conocimientos</h2>
-                <p class="skills-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odio numquam quidem nam dicta sunt at culpa earum dignissimos? Minima.</p>
-            </section>
+            <h2 class="title-h2">Mis Conocimientos</h2>
+            <p class="skills-p">Estas son las herramientas que utilizo como Desarrolladora Front End.</p>
             <!-- Inicio sesion card skills -->
             <section class="skills-containerimg">
                 <figure class="skills-item">
@@ -85,159 +85,145 @@ k<!DOCTYPE html>
         </section>
         <!-- Fin sesion skills -->
         <!-- Inicio Cita -->
-        <blockquote class="quote-container">
-            <i class="fa-solid fa-quote-right"></i>
-            <p>Los mejores programadores no son sólo marginalmente mejores que los buenos. Se trata de un orden de magnitud mayor, medida por cualquier estándar: creatividad conceptual, velocidad, ingenio o habilidad para solucionar problemas.</p>
-            <h3>Randall E. Stross</h3>
-        </blockquote>
+        <section class="quote-container">
+            <article class="quote">
+                <i class="fa-solid fa-quote-right"></i>
+                <blockquote cite="#">
+                    <p class="quote-text">Los mejores programadores no son sólo marginalmente mejores que los buenos. Se trata de un orden de magnitud mayor, medida por cualquier estándar: creatividad conceptual, velocidad, ingenio o habilidad para solucionar problemas.</p>
+                </blockquote>
+                <h3 class="quote-h3">Randall E. Stross</h3>
+            </article>
+        </section>
         <!-- Fin Cita -->
         <!-- Inicio mis proyectos -->
         <section class="projects-container" id="projects">
-            <section class="projects-title">
-                <h2 class="projects-h2">Mis proyectos</h2>
-                <p class="projects-p">Aqui podras ver todos los protectos que realice durante mi cursada en Ada.</p>
-            </section>
+            <h2 class="title-h2">Mis proyectos</h2>
+            <p class="projects-p">Aqui podras ver todos los protectos que realice durante mi cursada en Ada.</p>
             <!-- Inicio sesion card skills -->
-            <section class="projects-container-img">
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank">  <!-- el atributo target black hace que el link me abra el link en otra ventana -->
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/dev-woman.png" alt="portfolio" width="200px" height="auto">
-                            <figcaption>
-                                Portfolio
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank">
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/memes-gne.png" alt="generador de memes" >
-                            <figcaption>
-                                Generador de memes
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank"> 
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/macht.png" alt="match 3">
-                            <figcaption>
-                                Match 3
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank"> 
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/generador-gastos.png" alt="controlador de gastos">
-                            <figcaption>
-                                Controlador de gastos
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank"> 
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/adm-tareas.png" alt="adm de reuniones">
-                            <figcaption>
-                                Administrador de reuniones
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a class="project-link" href="#" target="_blank"> 
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/todoapp.png" alt="todo app">
-                            <figcaption>
-                                Todo app
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-                <article class="project-card">
-                    <a href="#" target="_blank">  
-                        <figure class="project-figure">
-                            <img class="project-img" src="./img/movies.png" alt="peliculas" width="200px" height="auto">
-                            <figcaption>
-                                Buscador de películas
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-            </section> 
+            <article class="projects-container-img">
+                <a class="project-link" href="#" target="_blank">  <!-- el atributo target black hace que el link me abra el link en otra ventana -->
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/dev-woman.png" alt="portfolio">
+                        <figcaption>
+                            Portfolio
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project-link" href="#" target="_blank">
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/memes-gne.png" alt="generador de memes" >
+                        <figcaption>
+                            Generador de memes
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project-link" href="#" target="_blank"> 
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/macht.png" alt="match 3">
+                        <figcaption>
+                            Match 3
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project-link" href="#" target="_blank"> 
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/generador-gastos.png" alt="controlador de gastos">
+                        <figcaption>
+                            Controlador de gastos
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project-link" href="#" target="_blank"> 
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/adm-tareas.png" alt="adm de reuniones">
+                        <figcaption>
+                            Administrador de reuniones
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="project-link" href="#" target="_blank"> 
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/todoapp.png" alt="todo app">
+                        <figcaption>
+                            Todo app
+                        </figcaption>
+                    </figure>
+                </a>                    
+                <a class="project-link" href="#" target="_blank">  
+                    <figure class="project-figure">
+                        <img class="project-img" src="./img/movies.png" alt="peliculas" >
+                        <figcaption>
+                            Buscador de películas
+                        </figcaption>
+                    </figure>
+                </a>
+            </article> 
             <!-- Fin sesion card skills -->
         </section>
         <!-- Fin mis proyectos -->
-        <section id="contact">
-        </section>
-    </main>
-    <!-- Inico contacto -->
-    <section class="contact-container" id="contact">
-        <section  class="contact-section">
-            <section class="contact-info">
-                <h2 class="contact-title">Contactame</h2>
-                <p class="description-contact">Si deseas contactarme por cualquier consulta u oferta de trabajo, acá te dejo mis datos, saludos.</p>
-                <section class="contact-box">
-                    <ul class="ul-contact">
-                        <li class="menu-contact-item">
-                            <a class="menu-contact-link" href="#">
-                                <i class="fa-brands fa-twitter contact-icon"></i>
-                                @hmarianj
-                            </a>
-                        </li>
-                        <li class="menu-contact-item">
-                            <a class="menu-contact-link" href="#">
-                                <i class="fa-brands fa-github-alt contact-icon"></i>
-                                hmarianj
-                            </a>
-                        </li>
-                        <li class="menu-contact-item">
-                            <a class="menu-contact-link" href="#">
-                                <i class="fa-brands fa-linkedin-in contact-icon"></i>
-                                marianhernandez
-                            </a>
-                        </li>
-                        <li class="menu-contact-item">
-                            <a class="menu-contact-link" href="#">
-                                <i class="fa-solid fa-envelope contact-icon"></i>
-                                hmarianj25@gmail.com
-                            </a>
-                        </li>
-                    </ul>
+        <!-- Inico contacto -->
+        <section class="section-container" id="contact">
+            <section class="contact-container">
+                <section  class="contact-rrss">
+                    <h2 class="title-h2 contact-title">Contactame</h2>
+                    <p class="contact-text">Si deseas contactarme por cualquier consulta u oferta de trabajo, acá te dejo mis datos, saludos.</p>
+                    <section class="contact-box">
+                        <ul>
+                            <li class="contact-item">
+                                <a class="contact-link" href="#">
+                                    <i class="fa-brands fa-twitter contact-icon"></i>
+                                    @hmarianj
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a class="contact-link" href="https://github.com/hmarianj" target="_blank">
+                                    <i class="fa-brands fa-github-alt contact-icon"></i>
+                                    hmarianj
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a class="contact-link" href="https://www.linkedin.com/in/marian-hern%C3%A1ndez-199471182?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7sANXNzsRT2YmOa7lcp4lg%3D%3D" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in contact-icon"></i>
+                                    marianhernandez
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a class="contact-link" href="mailto:hmarianj25@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope contact-icon"></i>
+                                    hmarianj25@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="form-container">
+                    <h2 class="title-h2 contact-title">Escribeme</h2>
+                    <form class="contact-form">
+                        <div class="box-namelastname">
+                            <div class="form-box form-name-lastname">
+                                <label for="name">Nombre *</label>
+                                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-box form-name-lastname">
+                                <label for="lastname">Apellido *</label>
+                                <input type="text" id="" name="lastname" placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-box">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="p. ej.: correo@gmail.com" required>
+                        </div>
+                        <div class="form-box form-textarea">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" cols="30" rows="10" required placeholder="Escribe un mensaje aquí"></textarea>
+                        </div>
+                        <button class="contact-btn">Enviar</button>
+                    </form>
                 </section>
             </section>
-            <section class="form-container">
-                <h2 class="contact-title">Escribeme</h2>
-                <form class="contact-form">
-                    <div class="box-namelastname">
-                        <div class="form-box form-name-lastname">
-                            <label for="name">Nombre *</label>
-                            <input type="text" id="name" name="name" placeholder="Nombre" required>
-                        </div>
-                        <div class="form-box form-name-lastname">
-                            <label for="lastname">Apellido *</label>
-                            <input type="text" id="" name="lastname" placeholder="Apellido" required>
-                        </div>
-                    </div>
-                    <div class="form-box">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" placeholder="p. ej.: correo@gmail.com" required>
-                    </div>
-                    <div class="form-box form-textarea">
-                        <label for="message">Mensaje *</label>
-                        <textarea id="message" name="message" cols="30" rows="10" required placeholder="Escribe un mensaje aquí"></textarea>
-                    </div>
-                    <button class="contact-btn">Enviar</button>
-                </form>
-            </section>
         </section>
-    </section>
     <!-- Fin contacto -->
+    </main>
     <!-- Inicio footer -->
     <footer class="footer-container">
         <nav class="footer-nav">
