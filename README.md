@@ -1,8 +1,25 @@
-# miportfolio
+# Mi portfolio
 
 Sitio web de Portafolio de Marian Hernandez. Proyecto del primer modulo de la carrera de FrontEnd de ADA ITW (HTML - CSS).
 
 El sitio web es responsive, mobile-first.
+
+## Índice
+
+- [Herramientas utilizadas](#Herramientas-utilizadas)
+- [Ver el proyecto](#ver-el-proyecto)
+- [Fotos](#fotos)
+
+---
+
+### Herramientas utilizadas
+- HTML5
+- CSS3
+- Git
+- Github
+
+### Ver proyecto online
+El proyecto se encuentra hosteado en [esta página](https://glowing-fairy-a9d659.netlify.app/).
 
 ## Fotos
 
