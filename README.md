@@ -7,7 +7,7 @@ El sitio web es responsive, mobile-first.
 ## Índice
 
 - [Herramientas utilizadas](#Herramientas-utilizadas)
-- [Ver el proyecto](#ver-el-proyecto)
+- [Ver el proyecto](#ver-proyecto-online)
 - [Fotos](#fotos)
 
 ---
