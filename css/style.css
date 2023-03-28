@@ -73,6 +73,9 @@ header, .navbar {
         justify-content: center;
         margin: 40px 0 40px;
 }
+.d-flex {
+    display: flex;
+}
 .about-img {
     width: 98%;
     max-width: 500px;
