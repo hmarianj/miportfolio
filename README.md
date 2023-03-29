@@ -19,7 +19,7 @@ El sitio web es responsive, mobile-first.
 - Github
 
 ### Ver proyecto online
-El proyecto se encuentra hosteado en [esta página](https://glowing-fairy-a9d659.netlify.app/).
+El proyecto se encuentra hosteado en [esta página](https://hmarianj.github.io/miportfolio/).
 
 ## Fotos
 
